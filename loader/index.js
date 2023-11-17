@@ -30,14 +30,18 @@ const loadImages = async (page) => {
 		imageWrapper.appendChild(link);
 		searchResult.appendChild(imageWrapper);
 	});
+
+	console.log(results);
 }
 
 loadImages(1);
+loadImages(2);
+loadImages(3);
 
 //loader
 window.addEventListener('load', (e) => {
 	loader.style.width = "100%";
 	setTimeout(() => {
-	    loader.classList.add("loader-left");
+		loader.style.left = "100%";
 	}, 3000)
 })
