@@ -4,7 +4,7 @@ body {
   justify-content: center;
   height: 100vh;
   align-items: center;
-  transition: .4s;
+  transition: .2s;
 }
 
 .input {
@@ -28,7 +28,7 @@ body {
   top: 3px;
   position: absolute;
   left: 3px;
-  animation: toggleOff 0.4s linear forwards;
+  animation: toggleOff 0.2s linear forwards;
 }
 
 .input:checked + .label {
@@ -36,7 +36,7 @@ body {
 }
 
 .input:checked + .label .circle {
-  animation: toggleOn 0.4s linear forwards;
+  animation: toggleOn 0.2s linear forwards;
   background-color: black;
 }
 
