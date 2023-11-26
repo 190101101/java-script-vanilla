@@ -42,6 +42,7 @@ const addNote = () => {
   );
 
   appEl.insertBefore(noteEl, btnEl);
+  noteEl.focus();
 
   notes.push(noteObj);
   saveNote(notes);
